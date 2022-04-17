@@ -1,0 +1,235 @@
+body{
+	background-image: url("BgImage.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+#status{
+	font-family: courier new;
+	font-size: 35px;
+	font-weight: bold;
+}
+.lagay{
+	font-family: 'Courier New';
+	font-weight: bold;
+	margin: 0 20px;
+	color: white;
+}
+.pdiv1, .pdiv2{
+	border: 3px solid white;
+	border-radius: 18px;
+	height: 30vw;
+}
+button{
+	font-weight: 500 !important;
+	margin: 3px 3px;
+}
+h1,h2{
+	font-family: courier;
+	font-weight: bold;
+	color: white;
+}
+
+.card-slot{
+	margin: auto;
+	display: grid;
+	width: 60%;
+	grid-template-columns: repeat(auto-fit, minmax(10px,1fr));
+}
+.card{
+	margin:auto;
+	margin-top: 2vw;
+	position: relative;
+	height: 18vw;
+	width: 12.7vw;
+	border:1px solid black;
+	border-radius: 0.8vw;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4.8vw;
+	user-select: none;
+	background-color: white;
+	font-family: courier new;
+}
+.card.red{
+	color: red;
+}
+.card.black{
+	color:black;
+}
+.card::before,
+.card::after{
+	position:absolute;
+	content: attr(data-value);
+	font-size: 2.6vw;
+}
+.card::before{
+	top:.2vw;
+	left: .2vw;
+}
+.card::after{
+	bottom:.2vw;
+	right: .2vw;
+	transform: rotate(180deg);
+}
+@media (max-width: 600px){
+    body{
+		background-image: url("BgImage.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		text-align: center;
+	}
+	#status{
+		font-family: courier new;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	.lagay{
+		font-family: 'Courier New';
+		font-weight: bold;
+		margin: 0 20px;
+		color: white;
+	}
+	.pdiv1, .pdiv2{
+		border: 3px solid white;
+		border-radius: 18px;
+		height: 30vh;
+	}
+	button{
+		font-weight: 500 !important;
+		margin: 3px 3px;
+	}
+	h1,h2{
+		font-family: courier;
+		font-weight: bold;
+		color: white;
+	}
+	
+	.card-slot{
+		margin: auto;
+		display: grid;
+		width: 60%;
+		grid-template-columns: repeat(auto-fit, minmax(10px,1fr));
+	}
+	.card{
+		margin:auto;
+		margin-top: 2vh;
+		position: relative;
+		height: 18vh;
+		width: 12.7vh;
+		border:1px solid black;
+		border-radius: 0.8vh;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 4.8vh;
+		user-select: none;
+		background-color: white;
+		font-family: courier new;
+	}
+	.card.red{
+		color: red;
+	}
+	.card.black{
+		color:black;
+	}
+	.card::before,
+	.card::after{
+		position:absolute;
+		content: attr(data-value);
+		font-size: 2.6vh;
+	}
+	.card::before{
+		top:.2vh;
+		left: .2vh;
+	}
+	.card::after{
+		bottom:.2vh;
+		right: .2vh;
+		transform: rotate(180deg);
+	}
+}
+
+@media only screen and (min-width : 1000px){
+    body{
+		background-image: url("BgImage.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		text-align: center;
+	}
+	#status{
+		font-family: courier new;
+		font-size: 35px;
+		font-weight: bold;
+	}
+	.lagay{
+		font-family: 'Courier New';
+		font-weight: bold;
+		margin: 0 20px;
+		color: white;
+	}
+	.pdiv1, .pdiv2{
+		border: 3px solid white;
+		border-radius: 18px;
+		height: 30vw;
+	}
+	button{
+		font-weight: 500 !important;
+		margin: 3px 3px;
+	}
+	h1,h2{
+		font-family: courier;
+		font-weight: bold;
+		color: white;
+	}
+	
+	.card-slot{
+		margin: auto;
+		display: grid;
+		width: 60%;
+		grid-template-columns: repeat(auto-fit, minmax(10px,1fr));
+	}
+	.card{
+		margin:auto;
+		margin-top: 2vw;
+		position: relative;
+		height: 18vw;
+		width: 12.7vw;
+		border:1px solid black;
+		border-radius: 0.8vw;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 4.8vw;
+		user-select: none;
+		background-color: white;
+		font-family: courier new;
+	}
+	.card.red{
+		color: red;
+	}
+	.card.black{
+		color:black;
+	}
+	.card::before,
+	.card::after{
+		position:absolute;
+		content: attr(data-value);
+		font-size: 2.6vw;
+	}
+	.card::before{
+		top:.2vw;
+		left: .2vw;
+	}
+	.card::after{
+		bottom:.2vw;
+		right: .2vw;
+		transform: rotate(180deg);
+	}
+}
+
+
+/*div{
+	border:2px solid white;
+}
