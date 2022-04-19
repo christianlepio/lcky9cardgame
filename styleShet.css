@@ -151,6 +151,10 @@ h1,h2{
 	}
 }
 
+footer p{
+	color: rgb(211, 211, 211);
+}
+
 @media only screen and (min-width : 1000px){
     body{
 		background-image: url("BgImage.jpg");
